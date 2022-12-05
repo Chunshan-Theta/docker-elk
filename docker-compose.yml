@@ -7,6 +7,7 @@ services:
       ELASTIC_PASSWORD: elastic-pasaword #username is `elastic`
       xpack.security.enabled: "true"
       xpack.license.self_generated.type: basic
+      TZ: Asia/Taipei
     ports:
       - 9200:9200
 
